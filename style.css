@@ -40,34 +40,10 @@
         width: 80px;
     }
 
-    img.carrosel {
-        height: 300px;
-        width: 240px;
-    }
+    
 
-    div#carrosel {
-        border: 5px solid black;
-        display: flex;
-        height: 75%;
-        width: 90%;
-        margin: auto;
-    }
 
-    div#carrosel_dentro {
-
-        margin-left: 50px;
-    }
-
-    h1#carrosel {
-        font-family: Arial, Helvetica, sans-serif;
-
-    }
-
-    p#carrosel {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    div.produtos {
+    div.col {
         display: flex;
         justify-content: space-evenly;
     }
@@ -93,12 +69,20 @@
 
     div.nome_data {
         position: absolute;
-        margin-top: 230px;
+        margin-top: 240px;
         margin-right: 20px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
 
-    p#produto {}
+    h2#apresentacao {
+        text-align: center;
+        margin: 15px;
+        padding: 3px 0 !important;
+        box-shadow: 15px white, -5px white;
+        background: white;
+
+    }
 
 }
 
