@@ -1,0 +1,152 @@
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    a.cabecalho {
+        margin: 5px;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+        color: white;
+        font: menu;
+        font-family: candara;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+    img.imagem_cima {
+        margin-top: 10px;
+        height: 20px;
+        width: 40px;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    a.cabecalho {
+        margin: 15px;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+        color: white;
+        font: menu;
+        font-family: candara;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    img.imagem_cima {
+        margin-top: 15px;
+        height: 40px;
+        width: 80px;
+    }
+
+    img.carrosel {
+        height: 300px;
+        width: 240px;
+    }
+
+    div#carrosel {
+        border: 5px solid black;
+        display: flex;
+        height: 75%;
+        width: 90%;
+        margin: auto;
+    }
+
+    div#carrosel_dentro {
+
+        margin-left: 50px;
+    }
+
+    h1#carrosel {
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    p#carrosel {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div.produtos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    img#produto {
+        height: 240px;
+        width: 160px;
+        background-color: white;
+        margin-top: 5px;
+
+
+    }
+
+    div.caixa_produto {
+        height: 300px;
+        width: 180px;
+        background-color: white;
+        display: inline-flex;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    div.nome_data {
+        position: absolute;
+        margin-top: 230px;
+        margin-right: 20px;
+    }
+
+
+    p#produto {}
+
+}
+
+@media screen and (min-width: 992px) {
+    a.cabecalho {
+        margin: 15px;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+        color: white;
+        font: menu;
+        font-family: candara;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    img.imagem_cima {
+        margin-top: 15px;
+        height: 30px;
+        width: 50px;
+    }
+
+    img.carrosel {
+        height: 240px;
+        width: 120px;
+    }
+
+}
+
+@media screen and (min-width: 1328px) {
+    a.cabecalho {
+        margin: 15px;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+        color: white;
+        font: menu;
+        font-family: candara;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    img.imagem_cima {
+        margin-top: 15px;
+        height: 40px;
+        width: 80px;
+    }
+
+}
